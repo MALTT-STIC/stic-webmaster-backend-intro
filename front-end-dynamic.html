@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Dynamic Front-end page</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+    <h1>Dynamic Front-end page</h1>
+    <p>This page cointains a JavaScript file that prints the current date in the next paragraph.</p>
+    <p id="dynamic"></p>
+    <hr>
+    <a href="./">Back to index</a>
+    <script>
+        //This JavaScript script simply prints the current date in a given format
+        document.getElementById('dynamic').textContent = new Date();
+    </script>
+</body>
+
+</html>
